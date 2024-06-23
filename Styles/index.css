@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 150%);   
+}
+
+canvas {
+  display:block;
+  margin:auto;
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+
+}
+
+main{
+    width:100%;
+    height: 60%;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menú{
+    margin-left: 27.5%;
+    width: 45%;
+    height: 85%;
+    font-size: 2em;
+}
+
+@media (max-width: 575.98px) {
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    html, body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    header{
+        height: 20%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+    }
+    
+    nav li{
+        display: inline-block;
+    }
+    
+    main{
+        width:100%;
+        height: 60%;
+    }
+    
+    footer{
+        width: 100%;
+        height: 10%;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #menú{
+        margin-left: 1.5%;
+        width: 95%;
+        height: 80%;
+        font-size: 1.75em;
+    }
+
+    #menú li{
+        margin-top: 1%;
+        padding: 1.5%;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Estilos para dispositivos móviles medianos */
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: cursive;
+    }
+    
+    html, body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    header{
+        height: 20%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+    }
+    
+    nav li{
+        display: inline-block;
+    
+    }
+    
+    main{
+        width:100%;
+        height: 60%;
+    }
+    
+    footer{
+        width: 100%;
+        height: 10%;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #menú{
+        margin-left: 27.5%;
+        width: 50%;
+        height: 100%;
+        font-size: 2em;
+    }
+
+  }
